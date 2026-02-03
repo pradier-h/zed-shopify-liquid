@@ -1,9 +1,9 @@
-id = "liquid"
-name = "Liquid"
-version = "0.5.0"
+id = "liquidhp"
+name = "Liquid - hp"
+version = "0.6.0"
 schema_version = 1
-authors = ["Jeffrey Guenther <guenther.jeffrey@gmail.com>"]
-description = "Shopify Liquid support"
+authors = ["HP <hpradier@axome.com>"]
+description = "Shopify Liquid support with syntax highlighting, code folding, document outline, and LSP integration"
 repository = "https://github.com/TheBeyondGroup/zed-shopify-liquid"
 
 [grammars.liquid]
@@ -13,3 +13,6 @@ commit = "d6ebde3974742cd1b61b55d1d94aab1dacb41056"
 [language_servers.liquid]
 name = "Liquid LSP"
 languages = ["Liquid"]
+
+[language_servers.liquid.language_ids]
+Liquid = "liquid"
