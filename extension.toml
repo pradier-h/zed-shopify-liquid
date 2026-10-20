@@ -4,7 +4,7 @@ version = "0.7.0"
 schema_version = 1
 authors = ["HP <hpradier@axome.com>"]
 description = "Shopify Liquid support with syntax highlighting, code folding, document outline, and LSP integration"
-repository = "https://github.com/TheBeyondGroup/zed-shopify-liquid"
+repository = "https://github.com/pradier-h/zed-shopify-liquid"
 
 [grammars.liquid]
 repository = "https://github.com/hankthetank27/tree-sitter-liquid"
